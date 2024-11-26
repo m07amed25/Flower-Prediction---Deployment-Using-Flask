@@ -121,16 +121,6 @@ print(response.json())
 
 ---
 
-## Deployment
-
-### Using Gunicorn
-For production environments, you can deploy the API using Gunicorn:
-```bash
-gunicorn -w 4 -b 0.0.0.0:5000 app:app
-```
-
----
-
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
